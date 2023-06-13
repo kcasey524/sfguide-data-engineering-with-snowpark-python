@@ -1,0 +1,15 @@
+name: pysnowpark
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+  - nodefaults
+dependencies:
+  - python=3.8.15
+  - snowflake-snowpark-python
+  - pyopenssl=22.0.0
+  - pip
+  - pip:
+   # Snowflake
+    - snowflake-cli-labs
+    - streamlit
+    - matplotlib
+    - seaborn
